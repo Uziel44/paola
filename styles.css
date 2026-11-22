@@ -1,7 +1,7 @@
 /* ==========================================================================
    Paola Pánfilo · Diarios de autoayuda
    Lenguaje visual tomado de la "Carta para mi diario": cielo acuarela,
-   plumas azules y blancas, destellos y títulos serif cursiva subrayados.
+   plumas azules y blancas, destellos y títulos serif en cursiva negrita.
    ========================================================================== */
 
 :root {
@@ -95,7 +95,7 @@ button { font: inherit; color: inherit; }
 }
 .salto:focus { top: 10px; }
 
-/* ---------- Títulos: serif cursiva, negrita y subrayada ---------- */
+/* ---------- Títulos: serif cursiva y negrita ---------- */
 .titulo {
   font-family: var(--display);
   font-style: italic;
@@ -103,10 +103,6 @@ button { font: inherit; color: inherit; }
   line-height: 1.06;
   letter-spacing: -0.005em;
   color: var(--tinta);
-  text-decoration: underline;
-  text-decoration-thickness: max(1.5px, 0.04em);
-  text-underline-offset: 0.17em;
-  text-decoration-skip-ink: none;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8), 0 0 22px rgba(255, 255, 255, 0.7);
   text-wrap: balance;
 }
